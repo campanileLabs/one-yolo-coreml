@@ -54,11 +54,11 @@ so OpenCV is required for one-yolo, CUDA is optional when building OpenCV from s
 you can get yolo models .pt from http://www.ultralytics.com
 
 1. `pip install ultralytics`
-2. `yolo export model=yolo26n.pt format=coreml`
+2. `yolo export model=yolo26s.pt format=coreml`
 3. copy the assets folder to build-macos/samples `cp -Rv ../../assets build-macos/samples/`
 4. `cd build-macos/samples`
 5. `mkdir models`
-6. move the converted .pt package... the .mlpackage to the models directory `use yolo26n.mlpackage`
+6. move the converted .pt package... the .mlpackage to the models directory `use yolo26s.mlpackage`
 7. run the executable from the terminal 
 
 ### asset videos
