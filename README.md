@@ -55,10 +55,10 @@ you can get yolo models .pt from http://www.ultralytics.com
 
 1. `pip install ultralytics`
 2. `yolo export model=yolo26n.pt format=coreml`
-3. copy the assets folder to build-macos/samples
+3. copy the assets folder to build-macos/samples `cp -Rv ../../assets build-macos/samples/`
 4. `cd build-macos/samples`
 5. `mkdir models`
-6. move the converted .pt package... the .mlpackage to the models directory
+6. move the converted .pt package... the .mlpackage to the models directory `use yolo36n.pt`
 7. run the executable from the terminal 
 
 ### asset videos
