@@ -58,7 +58,7 @@ you can get yolo models .pt from http://www.ultralytics.com
 3. copy the assets folder to build-macos/samples `cp -Rv ../../assets build-macos/samples/`
 4. `cd build-macos/samples`
 5. `mkdir models`
-6. move the converted .pt package... the .mlpackage to the models directory `use yolo36n.pt`
+6. move the converted .pt package... the .mlpackage to the models directory `use yolo26n.mlpackage`
 7. run the executable from the terminal 
 
 ### asset videos
