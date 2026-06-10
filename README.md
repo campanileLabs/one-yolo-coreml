@@ -51,7 +51,7 @@ one-yolo will depend on OpenCV::DNN module as inference backend by default,
 so OpenCV is required for one-yolo, CUDA is optional when building OpenCV from source code. 
 ```
 ### To run you must convert yolo models to mlpackage
-you can get yolo models .pt from http://www.ultralytics.com
+you can get yolo models .pt from http://www.ultralytics.com https://platform.ultralytics.com/ultralytics/yolo26/yolo26s
 
 1. `pip install ultralytics`
 2. `yolo export model=yolo26s.pt format=coreml`
