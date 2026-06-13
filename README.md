@@ -34,7 +34,7 @@ It is tested on Apple Silicon macs with 64GB UM on 6 and 8way video running 54 a
 
 ### build
 1. run `git clone https://github.com/edselmalasig/one-yolo-coreml.git`
-2. run `cd one-yolo && mkdir build-macos && cd build-macos`
+2. run `cd one-yolo-coreml && mkdir build-macos && cd build-macos`
 3. run `cmake .. && make -j8` 
 
 ```
